@@ -29,3 +29,5 @@ via Maven, you can add the following to your POM:
 
 I don't have bindings for every single DLL provided by MonoTouch, but if you need one that's
 missing, file an issue.
+
+[ikvm-monotouch]: https://github.com/samskivert/ikvm-monotouch
