@@ -8,4 +8,4 @@ if [ -z "$JAR" -o -z "$POM" ]; then
     exit 255
 fi
 
-mvn install:install-file -Dfile=$JAR -DpomFile=$POM -DlocalRepositoryPath=maven
+mvn deploy:deploy-file -Dfile=$JAR -DpomFile=$POM -Durl=file://maven
